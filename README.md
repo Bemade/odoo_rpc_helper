@@ -7,12 +7,12 @@ XMLRPC.
 
 ### Installing via pip
 
-    pip install odoo_rpc_helpers.
+    pip install odoo_rpc_helper
 
 ### A Simple Connection
 
 ```python
-from rpc_helpers import OdooRPCHelper
+from odoo_rpc_helpers import OdooRPCHelper
 
 DB = "test"  # Set this to your database name
 USERNAME = "admin"  # Set this to a real username on the DB
